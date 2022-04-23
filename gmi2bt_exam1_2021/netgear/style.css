@@ -1,0 +1,22 @@
+/* includes alternating gray and white with on-hover color */
+
+.networkinfo {
+    font-size: 11pt; 
+    font-family: Arial;
+    border-collapse: collapse; 
+    border: 1px solid silver;
+
+}
+
+.networkinfo td, th {
+    padding: 5px;
+}
+
+.networkinfo tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.networkinfo tr:hover {
+    background: silver;
+    cursor: pointer;
+}
